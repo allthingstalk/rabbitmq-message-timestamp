@@ -1,3 +1,13 @@
+# Note on Update
+
+Changes that have been made to this repository since the fork:
+
+- Modified timestamp so that `milliseconds` are used instead of seconds.
+
+Desired modifications necessary before pull-request can be issued:
+
+- Allow for configuring timestamp resolution via RabbitMQ configuration file.
+
 # RabbitMQ Message Timestamp Plugin #
 
 This plugin fills the `timestamp` property of a message as it enters
